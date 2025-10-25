@@ -1,0 +1,11 @@
+# Ignora arquivos do Git
+.git
+.gitignore
+
+# Ignora dependências de desenvolvimento (se fosse um projeto Node/backend)
+node_modules
+
+# Ignora arquivos temporários e editor
+*.log
+*.tmp
+.vscode

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>DevTech Academy - Gerenciamento de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Gerenciamento de Alunos - DevTech Academy</h1>
+
+    <section id="cadastro-form">
+        <h2>Cadastro de Alunos</h2>
+        <form id="form-aluno">
+            <input type="hidden" id="alunoIdEdicao" value="">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" required>
+
+            <label for="curso">Curso:</label>
+            <select id="curso" required>
+                <option value="">Selecione o Curso</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </select>
+
+            <label for="notaFinal">Nota Final:</label>
+            <input type="number" id="notaFinal" step="0.1" min="0" max="10" required>
+
+            <button type="button" id="btn-cadastro-edicao">Cadastrar</button>
+            <button type="reset">Limpar Formulário</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="listagem-alunos">
+        <h2>Alunos Cadastrados</h2>
+        <table id="tabela-alunos">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Curso</th>
+                    <th>Nota Final</th>
+                    <th>Ações</th> </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="relatorios">
+        <h2>Relatórios</h2>
+        <div id="botoes-relatorios">
+            <button onclick="listarAprovados()">Listar Aprovados (Nota >= 7) </button>
+            <button onclick="calcularMedias()">Média das Notas e Idades </button>
+            <button onclick="listarNomesOrdenados()">Nomes em Ordem Alfabética </button>
+            <button onclick="mostrarQuantidadePorCurso()">Alunos por Curso </button>
+            <button onclick="renderizarTabela()">Mostrar Tabela Completa</button>
+        </div>
+        <div id="resultado-relatorio">
+            <p>Clique em um relatório acima para ver os resultados.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>

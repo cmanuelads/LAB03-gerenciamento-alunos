@@ -1,0 +1,93 @@
+/* Estilos básicos para usabilidade */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+/* Formulário */
+#form-aluno label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#form-aluno input[type="text"], 
+#form-aluno input[type="number"], 
+#form-aluno select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+#form-aluno button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-cadastro-edicao {
+    background-color: #007bff;
+    color: white;
+}
+
+#btn-cadastro-edicao:hover {
+    background-color: #0056b3;
+}
+
+/* Tabela */
+#tabela-alunos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-alunos th, #tabela-alunos td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#tabela-alunos th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Cores de status na renderização dinâmica */
+/* Estas cores são aplicadas dinamicamente no script.js */
+#tabela-alunos td:nth-child(4) {
+    font-weight: bold;
+}
+
+/* Relatórios */
+#botoes-relatorios button {
+    background-color: #28a745;
+    color: white;
+    margin: 5px;
+}
+#botoes-relatorios button:hover {
+    background-color: #1e7e34;
+}
+
+#resultado-relatorio {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #007bff;
+    background-color: #e9f7ff;
+    border-radius: 4px;
+}
