@@ -1,4 +1,4 @@
-\# Gerenciamento de Alunos - DevTech Academy
+# Gerenciamento de Alunos - DevTech Academy
 
 
 
@@ -6,7 +6,7 @@ Este projeto é um sistema simples de Gerenciamento de Alunos (CRUD) desenvolvid
 
 
 
-\## Funcionalidades Principais
+## Funcionalidades Principais
 
 
 
@@ -24,7 +24,7 @@ Relatórios: Geração de relatórios dinâmicos utilizando métodos de array co
 
 
 
-\## Estrutura do Projeto
+## Estrutura do Projeto
 
 
 
@@ -42,7 +42,7 @@ Os principais arquivos são:
 
 
 
-\## Como Executar o Projeto (Via Docker)
+## Como Executar o Projeto (Via Docker)
 
 
 
@@ -54,7 +54,7 @@ Pré-requisitos: Docker Desktop instalado e rodando.
 
 
 
-1\.  Construir a Imagem Docker:
+1.  Construir a Imagem Docker:
 
 &nbsp;   Navegue até a pasta raiz do projeto (`gerenciamento-alunos`) no terminal e execute:
 
@@ -66,7 +66,7 @@ Pré-requisitos: Docker Desktop instalado e rodando.
 
 
 
-2\.  Executar o Container:
+2.  Executar o Container:
 
 &nbsp;   Inicie o container, mapeando a porta `8080` do seu computador para a porta `80` do container:
 
@@ -78,7 +78,7 @@ Pré-requisitos: Docker Desktop instalado e rodando.
 
 
 
-3\.  Acessar a Aplicação:
+3.  Acessar a Aplicação:
 
 &nbsp;   Abra seu navegador e acesse: `http://localhost:8080`
 
